@@ -1,5 +1,6 @@
 header{
 	height: 54px;
+
 }
 li {
 	display: inline-block;
@@ -24,6 +25,13 @@ li {
 	margin-left: auto;
 	margin-right: auto;
 }
+.header2{
+	display: inline-block;
+}
+.social-icons{
+	float: right;
+	display: inline-block;
+}
 /*-----------------news section--------------------*/
 h2{
 	display: inline-block;
@@ -45,6 +53,7 @@ h2{
 .news h1 {
 	padding-left: 14px;
 	font-size: 18px;
+	padding-top: 8px;
 } 
 /*----------------videos section--------------------*/
 .video {
@@ -59,7 +68,7 @@ h2{
 	width: 475px;
 	height: 224px;
 	display: inline-block;
-	background: grey;
+	/*background: grey;*/
 	margin-right: 15px;
 	overflow: hidden;
 }
@@ -79,12 +88,13 @@ h2{
 	display: inline-block;
 	vertical-align: top;
 }
-p, .featured-h1 {
+p, .feature-h1{
 	padding-top:15px;
 	padding-left: 15px;
 	padding-bottom: 15px;
 }
 
+	
 .featured-text h1 {
 	font-size: 18px;
 }
